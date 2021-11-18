@@ -60,7 +60,7 @@
 
 .modern__navbar-menu {
   margin-left: 1rem;
-  display: flex;
+  display: none;
   position: relative;
 }
 
@@ -98,7 +98,7 @@
     display: none;
   }
 
-  /* .modern__navbar-menu {
+  .modern__navbar-menu {
     display: flex;
-  } */
+  }
 }
