@@ -13,6 +13,9 @@ a {
   color: unset;
   text-decoration: none;
 }
+h1 {
+  color: rgb(163, 107, 236);
+}
 
 .gradient__bg {
   /* ff 3.6+ */

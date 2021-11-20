@@ -10,7 +10,7 @@ const Menu = () => (
       <a href="#home">Home</a>
     </p>
     <p>
-      <a href="#modern">What is Modern</a>
+      <a href="#ohk2">What is ohk2</a>
     </p>
     <p>
       <a href="#possibility">Open AI</a>
@@ -27,20 +27,20 @@ const Menu = () => (
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
   return (
-    <div className="modern__navbar">
-      <div className="modern__navbar-links">
-        <div className="modern__navbar-links_logo">
+    <div className="ohk2__navbar">
+      <div className="ohk2__navbar-links">
+        <div className="ohk2__navbar-links_logo">
           <img src={logo} alt="logo" />
         </div>
-        <div className="modern__navbar-links_container">
+        <div className="ohk2__navbar-links_container">
           <Menu />
         </div>
       </div>
-      <div className="modern__navbar-sign">
+      <div className="ohk2__navbar-sign">
         <p>Sign in</p>
         <button type="button">Sign up</button>
       </div>
-      <div className="modern__navbar-menu">
+      <div className="ohk2__navbar-menu">
         {toggleMenu ? (
           <RiCloseLine
             color="#fff"
@@ -55,11 +55,11 @@ const Navbar = () => {
           />
         )}
         {toggleMenu && (
-          <div className="modern__navbar-menu_container scale-up-center">
-            <div className="modern__navbar-menu_container-links">
+          <div className="ohk2__navbar-menu_container scale-up-center">
+            <div className="ohk2__navbar-menu_container-links">
               <Menu />
             </div>
-            <div className="modern__navbar-menu_container-links-sign">
+            <div className="ohk2__navbar-menu_container-links-sign">
               <button type="button">Sign up</button>
             </div>
           </div>
