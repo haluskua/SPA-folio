@@ -1,31 +1,31 @@
 import React from "react";
 import "./header.css";
-import people from "../../assets/people.png";
-import ai from "../../assets/ai.png";
+import adobe from "../../assets/adobe3.svg";
+import logo from "../../assets/crest3.png";
 
-const Header = () => {
-  return (
-    <div className="ohk2__header__padding" id="home">
-      <div className="ohk2__header-content">
-        <h1 className="gradient_text">
-          Lets's Build Something amazing with OHK-2 Brand
-        </h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
-          illum labore sapiente minus perspiciatis!
-        </p>
-        <div className="ohk__header-content__input">
-          <input type="email" name="" id="" placeholder="your email address" />
-          <button type="button"> Get Started</button>
-          <img src={people} alt="people" />
-          <p>Lorem, dolor sit amet t deleniti perspiciatis laboriosam.</p>
-        </div>
-        <div className="ohk__header-im">
-          <img src={ai} alt="ai" />
-        </div>
+const Header = () => (
+  <div className="ompa__header section__padding" id="home">
+    <div className="ompa__header-content">
+      <h1 className="gradient__text">
+        {" I am "}
+        <strong>{"Omphalus Kua "}</strong>
+        <br />
+      </h1>
+      <p>Freelance UX/UI dEsigner and dEveloper</p>
+
+      <div className="ompa__header-content__input">
+        <input type="email" placeholder="Your Email Address" />
+        <button type="button">Get Started</button>
+      </div>
+
+      <div className="ompa__header-content__people">
+        <img src={adobe} />
+        <p>1,600 people requested access a visit in last 24 hours</p>
       </div>
     </div>
-  );
-};
+
+    <div className="ompa__header-image">{<img src={logo} />}</div>
+  </div>
+);
 
 export default Header;

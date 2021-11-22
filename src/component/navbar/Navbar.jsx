@@ -2,7 +2,7 @@ import React from "react";
 import "./navbar.css";
 import { useState } from "react";
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
-import logo from "../../assets/ohk.svg";
+import logo from "../../assets/folio-black.svg";
 //BEM --> Block ELement Modifier
 const Menu = () => (
   <>
@@ -10,16 +10,16 @@ const Menu = () => (
       <a href="#home">Home</a>
     </p>
     <p>
-      <a href="#ohk2">What is ohk2</a>
+      <a href="#ompa">ABOUT</a>
     </p>
     <p>
-      <a href="#possibility">Open AI</a>
+      <a href="#possibility">CONTACT</a>
     </p>
     <p>
-      <a href="#feature">Case Studies</a>
+      <a href="#feature">PORTFOLIO</a>
     </p>
     <p>
-      <a href="#blog">Library</a>
+      <a href="#blog">RESUME</a>
     </p>
   </>
 );
@@ -27,20 +27,20 @@ const Menu = () => (
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
   return (
-    <div className="ohk2__navbar">
-      <div className="ohk2__navbar-links">
-        <div className="ohk2__navbar-links_logo">
+    <div className="ompa__navbar">
+      <div className="ompa__navbar-links">
+        <div className="ompa__navbar-links_logo">
           <img src={logo} alt="logo" />
         </div>
-        <div className="ohk2__navbar-links_container">
+        <div className="ompa__navbar-links_container">
           <Menu />
         </div>
       </div>
-      <div className="ohk2__navbar-sign">
+      <div className="ompa__navbar-sign">
         <p>Sign in</p>
-        <button type="button">Sign up</button>
+        <button type="button">Lets chat</button>
       </div>
-      <div className="ohk2__navbar-menu">
+      <div className="ompa__navbar-menu">
         {toggleMenu ? (
           <RiCloseLine
             color="#fff"
@@ -55,11 +55,11 @@ const Navbar = () => {
           />
         )}
         {toggleMenu && (
-          <div className="ohk2__navbar-menu_container scale-up-center">
-            <div className="ohk2__navbar-menu_container-links">
+          <div className="ompa__navbar-menu_container scale-up-center">
+            <div className="ompa__navbar-menu_container-links">
               <Menu />
             </div>
-            <div className="ohk2__navbar-menu_container-links-sign">
+            <div className="ompa__navbar-menu_container-links-sign">
               <button type="button">Sign up</button>
             </div>
           </div>
