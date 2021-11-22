@@ -6,7 +6,7 @@ import {
   Blog,
   Possibility,
   Features,
-  Modern,
+  AboutOmpa,
   Header,
 } from "./containers";
 
@@ -22,7 +22,7 @@ const App = () => {
           <Header />
         </div>
         <Brand />
-        <Modern />
+        <AboutOmpa />
         <Features />
         <Possibility />
         <CTA />
