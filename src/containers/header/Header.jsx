@@ -15,12 +15,12 @@ const Header = () => (
 
       <div className="ompa__header-content__input">
         <input type="email" placeholder="Your Email Address" />
-        <button type="button">Get Started</button>
+        <button type="button">PORTFOLIO</button>
       </div>
 
       <div className="ompa__header-content__people">
         <img src={adobe} />
-        <p>1,600 people requested access a visit in last 24 hours</p>
+        <p>Using popular tools</p>
       </div>
     </div>
 

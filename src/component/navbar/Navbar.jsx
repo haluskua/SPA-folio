@@ -60,7 +60,7 @@ const Navbar = () => {
               <Menu />
             </div>
             <div className="ompa__navbar-menu_container-links-sign">
-              <button type="button">Sign up</button>
+              <button type="button">Lets chat</button>
             </div>
           </div>
         )}

@@ -67,6 +67,11 @@ h1 {
 .section__margin {
   margin: 4em 6rem;
 }
+@media screen and (min-width: 2000px) {
+  .section__padding {
+    padding: 4.5rem 15rem;
+  }
+}
 
 .scale-up-center {
   -webkit-animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1)
