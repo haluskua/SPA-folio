@@ -88,8 +88,8 @@
 }
 
 .ompa__header-content__people img {
-  width: 181.79px;
-  height: 38px;
+  width: 380px;
+  height: 100%;
 }
 
 .ompa__header-content__people p {
@@ -147,6 +147,10 @@
   .ompa__header-content__input button {
     font-size: 16px;
     line-height: 24px;
+  }
+  .ompa__header-content__people img {
+    width: 222px;
+    height: 100%;
   }
 }
 

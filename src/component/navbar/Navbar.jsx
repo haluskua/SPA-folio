@@ -10,13 +10,13 @@ const Menu = () => (
       <a href="#home">Home</a>
     </p>
     <p>
-      <a href="#ompa">ABOUT</a>
+      <a href="#About">ABOUT</a>
     </p>
     <p>
-      <a href="#possibility">CONTACT</a>
+      <a href="#Contact ">CONTACT</a>
     </p>
     <p>
-      <a href="#feature">PORTFOLIO</a>
+      <a href="#Portfolio">PORTFOLIO</a>
     </p>
     <p>
       <a href="#blog">RESUME</a>

@@ -1,6 +1,7 @@
 .ompa__aboutOmpa {
   display: flex;
   flex-direction: column;
+  margin: 2rem 8.6rem;
 
   padding: 2rem;
   background: var(--color-footer);
@@ -50,6 +51,7 @@
 
 .ompa__aboutOmpa-feature {
   display: flex;
+  justify-content: space-between;
 }
 
 .ompa__aboutOmpa-feature .ompa__features-container {
@@ -85,7 +87,6 @@
 .ompa__aboutOmpa-container {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
   margin-top: 2rem;
 }
 
@@ -116,6 +117,9 @@
 
 @media screen and (max-width: 650px) {
   /* Customizing feature component as per needs */
+  .ompa__aboutOmpa {
+    margin: 1rem;
+  }
   .ompa__aboutOmpa-feature .gpt3__features-container__feature {
     flex-direction: column;
   }
