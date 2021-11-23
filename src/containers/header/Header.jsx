@@ -11,7 +11,7 @@ const Header = () => (
         <strong>{"Omphalus Kua "}</strong>
         <br />
       </h1>
-      <p>Freelance UX/UI dEsigner and dEveloper</p>
+      <p>Fullstack Developer</p>
 
       <div className="ompa__header-content__input">
         <input type="email" placeholder="Your Email Address" />
