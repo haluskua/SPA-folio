@@ -5,6 +5,12 @@ import "./aboutOmpa.css";
 const AboutOmpa = () => {
   return (
     <div className="ompa__aboutOmpa" id="Aboutompa">
+      <div className="ompa__aboutOmpa-feature">
+        <Feature
+          title="About Me"
+          text="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus, et nemo quod reiciendis voluptates voluptatem. ipsum dolor sit amet, consectetur adipisicing elit."
+        />
+      </div>
       <div className="ompa__aboutOmpa-heading">
         <h1 className="gradient__text">Creative Technologist</h1>
         <p>Web and Grafix Enthusiast</p>
