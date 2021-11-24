@@ -4,7 +4,7 @@ import React from "react";
 import {
   Footer,
   Blog,
-  Possibility,
+  Contact,
   Features,
   AboutOmpa,
   Header,
@@ -24,7 +24,7 @@ const App = () => {
         <Brand />
         <AboutOmpa />
         <Features />
-        <Possibility />
+        <Contact />
         <CTA />
         <Blog />
         <Footer />
