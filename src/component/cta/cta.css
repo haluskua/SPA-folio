@@ -1,0 +1,56 @@
+.ompa__cta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 2rem;
+  margin: 0.4rem;
+  border-radius: 1rem;
+  background: var(--gradient-bar);
+}
+
+.ompa__cta p {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 30px;
+  color: rgb(50, 29, 29);
+}
+
+.ompa__cta h3 {
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 45px;
+  color: #000;
+}
+
+.ompa__cta-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-left: 2rem;
+}
+.ompa__cta-btn button {
+  background-color: rgb(255, 255, 255);
+  border-radius: 40px;
+  font-family: var(--font-family);
+  font-weight: bold;
+  line-height: 30px;
+  padding: 0.5rem 1rem;
+
+  border: none;
+  outline: none;
+  cursor: pointer;
+  min-width: 150px;
+}
+
+@media screen and (max-width: 650px) {
+  .ompa__cta {
+    flex-direction: column;
+  }
+  .ompa__cta-btn {
+    margin: 2rem 0 0;
+  }
+}
