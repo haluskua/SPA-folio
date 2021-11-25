@@ -1,5 +1,6 @@
 import React from "react";
 import { Article } from "../../component";
+import { blog01, blog02, blog03, blog04, blog05 } from "./imports";
 import "./blog.css";
 const Blog = () => {
   return (
@@ -12,10 +13,11 @@ const Blog = () => {
           <Article />
         </div>
         <div className="ompa__blog-container_groupB">
-          <Article />
-          <Article />
-          <Article />
-          <Article />
+          <Article imgUrl={blog01} />
+          <Article imgUrl={blog02} />
+          <Article imgUrl={blog03} />
+          <Article imgUrl={blog04} />
+          <Article imgUrl={blog05} />
         </div>
       </div>
     </div>

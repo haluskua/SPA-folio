@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <div className="ompa__contact section__padding" id="Contact">
       <div className="ompa__contact-img">
-        <img src={contactImage} alt="" alt="contact" />
+        <img src={contactImage} alt="" alt="contact-img" />
       </div>
       <div className="ompa__contact-content">
         <h4>Lorem, ipsum </h4>
