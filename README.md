@@ -14,57 +14,223 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-### `npm test`
+##############
+{
+"editor.fontLigatures": true,
+"editor.fontFamily": "Consolas",
+"editor.fontWeight": "500",
+"javascript.updateImportsOnFileMove.enabled": "always",
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+"editor.suggestSelection": "first",
+"emmet.syntaxProfiles": {},
+"emmet.includeLanguages": {
+"javascript": "javascriptreact",
+"plaintext": "pug"
+},
 
-### `npm run build`
+"editor.formatOnPaste": false,
+"editor.formatOnType": true,
+"editor.wordWrap": "on",
+"editor.mouseWheelZoom": true,
+"editor.cursorBlinking": "smooth",
+"editor.fontSize": 19,
+"editor.cursorStyle": "line",
+"editor.cursorWidth": 2,
+"editor.letterSpacing": 0.28,
+"editor.lineHeight": 33,
+"editor.cursorSmoothCaretAnimation": true,
+"terminal.integrated.cursorStyle": "line",
+"screencastMode.mouseIndicatorColor": "#6eff51",
+// "editor.semanticTokenColorCustomizations": null,
+"[html]": {
+"editor.defaultFormatter": "esbenp.prettier-vscode"
+},
+"editor.formatOnSave": true,
+"[jsonc]": {
+"editor.defaultFormatter": "esbenp.prettier-vscode"
+},
+"javascript.format.semicolons": "insert",
+"[json]": {
+"editor.defaultFormatter": "vscode.json-language-features"
+},
+"workbench.iconTheme": "material-icon-theme",
+"workbench.colorTheme": "GitHub Dark Default",
+"terminal.integrated.tabs.enabled": true,
+"editor.defaultFormatter": "esbenp.prettier-vscode",
+"editor.semanticTokenColorCustomizations": null,
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+"editor.tokenColorCustomizations": {
+"textMateRules": [
+{
+"scope": "variable.other.property.jsx",
+"settings": {
+"foreground": "#feefff"
+}
+},
+{
+"scope": "entity.other.attribute-name",
+"settings": {
+"foreground": "#60d48d"
+}
+},
+{
+"scope": "entity.other.attribute-name.js.jsx",
+"settings": {
+"foreground": "#6ed191"
+}
+},
+{
+"scope": "entity.name.tag.js.jsx",
+"settings": {
+"foreground": "#ec6464"
+}
+},
+{
+"scope": "entity.name.tag.js",
+"settings": {
+"foreground": "#ec6464"
+}
+},
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+      {
+        "scope": "string.quoted.double.js.jsx",
+        "settings": {
+          "foreground": "#d5adff"
+        }
+      },
+      {
+        "scope": "variable.other",
+        "settings": {
+          "foreground": "#486fc3"
+        }
+      },
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+      {
+        "scope": "entity.other.attribute-name.class.css",
+        "settings": {
+          "foreground": "#d5adff"
+        }
+      },
+      {
+        "scope": "comment",
+        "settings": {
+          "foreground": "#414154"
+        }
+      },
 
-### `npm run eject`
+      {
+        "scope": "keyword",
+        "settings": {
+          "foreground": "#79C0FF"
+        }
+      },
+      {
+        "scope": "keyword.operator.logical.js.jsx",
+        "settings": {
+          "foreground": "#ef53b8"
+        }
+      },
+      {
+        "scope": "keyword.control.import.js.jsx        ",
+        "settings": {
+          "foreground": "#C83AA9"
+        }
+      },
+      {
+        "scope": "entity.name.tag",
+        "settings": {
+          "foreground": "#ffe2d6"
+        }
+      },
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+      {
+        "scope": [
+          // "keyword.other.unit.rem.css",
+          "constant.numeric.css",
+          "meta.property-value.css",
+          "meta.property-list.css",
+          "source.css"
+        ],
+        "settings": {
+          "foreground": "#f697ff",
+          "fontStyle": "bold"
+        }
+      },
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+      {
+        "scope": "support",
+        "settings": {
+          "foreground": "#60d48d"
+        }
+      },
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+      {
+        "scope": "variable.other",
+        "settings": {
+          "foreground": "#ffd3c0"
+        }
+      },
+      {
+        "scope": "variable.other.constant.object.jsx",
+        "settings": {
+          "foreground": "#ffd3c0"
+        }
+      },
+      {
+        "scope": "meta.jsx.children",
+        "settings": {
+          "foreground": "#fff"
+        }
+      },
+      {
+        "scope": "keyword.control.flow.js.jsx",
+        "settings": {
+          "foreground": "#5da9ff"
+        }
+      },
+      {
+        "scope": "keyword.control.at-rule.media.css",
+        "settings": {
+          "foreground": "#c83aa9"
+        }
+      },
+      {
+        "scope": "constant.numeric.css",
+        "settings": {
+          "foreground": "#c83aa9",
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": "entity.name.function.jsx",
+        "settings": {
+          "foreground": "#ffde36"
+        }
+      },
+      {
+        "scope": "storage.type",
+        "settings": {
+          "foreground": "#79C0FF"
+        }
+      },
+      {
+        "scope": "support.class.component.js",
+        "settings": {
+          "foreground": "#FFD3C0"
+        }
+      }
+    ]
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+},
+"diffEditor.ignoreTrimWhitespace": false,
+"explorer.confirmDragAndDrop": false,
+"tabnine.experimentalAutoImports": true,
+"workbench.colorCustomizations": {},
+"window.zoomLevel": -3
+// "terminal.integrated.localEchoStyle": null,
+// "terminal.integrated.defaultProfile.windows": "Git Bash",
+// "editor.codeActionsOnSave": null,
+// "terminal.integrated.automationShell.linux": ""
+}
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+############
