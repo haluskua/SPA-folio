@@ -1,0 +1,103 @@
+.ompa__contact {
+  display: flex;
+  /* ff 3.6+ */
+  background: -moz-radial-gradient(
+    circle at 30% -100%,
+    #042c54 25%,
+    rgba(4, 44, 84, 1) 85%,
+    rgba(27, 120, 222, 1) 100%
+  );
+
+  /* safari 5.1+,chrome 10+ */
+  background: -webkit-radial-gradient(
+    circle at 30% -100%,
+    #ef59a0 25%,
+    rgb(255 255 255) 85%,
+    rgb(255 39 121) 100%
+  );
+
+  /* opera 11.10+ */
+  background: -o-radial-gradient(
+    circle at 30% -100%,
+    #ef59a0 25%,
+    rgb(255 255 255) 85%,
+    rgb(255 39 121) 100%
+  );
+
+  /* ie 10+ */
+  background: -ms-radial-gradient(
+    circle at 30% -100%,
+    #ef59a0 25%,
+    rgb(255 255 255) 85%,
+    rgb(255 39 121) 100%
+  );
+
+  /* global 92%+ browsers support */
+  background: radial-gradient(
+    circle at 30% -100%,
+    #ef59a0 25%,
+    rgb(255 255 255) 85%,
+    rgb(255 39 121) 100%
+  );
+
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.ompa__contact-image {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  margin-right: 2rem;
+}
+
+.ompa__contact-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.ompa__contact-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.ompa__contact-content h4 {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  color: #63adff;
+}
+.ompa__contact-content h4:last-child {
+  color: rgb(6, 0, 0);
+}
+.ompa__contact-content h1 {
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 45px;
+  margin: 1px 0;
+}
+.ompa__contact-content p {
+  font-family: var(--font-family);
+  font-size: 16px;
+  color: var(--color-text);
+
+  margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 950px) {
+  .ompa__contact {
+    flex-direction: column;
+  }
+  .ompa_contact-image {
+    margin: 1rem 0;
+  }
+  .ompa__contact {
+    margin-top: 2rem;
+  }
+}
