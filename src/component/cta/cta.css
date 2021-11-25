@@ -54,3 +54,18 @@
     margin: 2rem 0 0;
   }
 }
+
+@media screen and ( max-width: 550px) {
+  .ompa__cta {
+    margin: 4rem 2rem;
+  }
+
+  .ompa__cta-content h3 {
+    font-size: 18px;
+    line-height: 32px;
+  };
+  .ompa__cta-btn button {
+    font-size: 14px;
+    line-height: 28px;
+  }
+}
